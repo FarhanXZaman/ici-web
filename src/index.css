@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Crushed", Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgb(255, 255, 255);
+  background: linear-gradient(90deg, #27398f, #3b82f6);
+  background-size:auto;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p{
+  font-family:'Courier New', Courier, monospacesans-serif;
+}
