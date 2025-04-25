@@ -12,10 +12,10 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/ici-web' element={<Home />}/>
-        <Route path='/ici-web/about' element={<About />}/>
-        <Route path='/ici-web/subjects' element={<Subjects />}/>
-        <Route path='/ici-web/activities' element={<Activities />}/>
+        <Route path='/' element={<Home />}/>
+        <Route path='/about' element={<About />}/>
+        <Route path='/subjects' element={<Subjects />}/>
+        <Route path='/activities' element={<Activities />}/>
       </Routes>
     </>
   )
